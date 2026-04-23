@@ -21,11 +21,3 @@ Modern web teknolojileri ile geliştirilmiş, tamamen responsive ve animasyonlu 
 * **Auto-Animate** (Animasyonlar)
 
 ---
-
-## ⚙️ Kurulum
-
-Projeyi yerel bilgisayarınızda çalıştırmak için:
-
-1. Depoyu klonlayın:
-   ```bash
-   git clone [https://github.com/kullaniciadin/wordle-clone.git](https://github.com/kullaniciadin/wordle-clone.git)
