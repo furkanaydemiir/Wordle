@@ -23,7 +23,7 @@ function App() {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get("./wordle.json");
+      const response = await axios.get("/wordle.json");
       const data = response.data.words;
       const rand = Math.floor(Math.random() * data.length);
       setGameWord(data[rand].toUpperCase());
