@@ -1,16 +1,31 @@
-# React + Vite
+# 🧩 React Wordle Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern web teknolojileri ile geliştirilmiş, tamamen responsive ve animasyonlu bir **Wordle** klonu. Bu proje, React yeteneklerimi geliştirmek ve karmaşık oyun mantıklarını (harf kontrol algoritmaları, state yönetimi) pratik etmek amacıyla geliştirilmiştir.
 
-Currently, two official plugins are available:
+## ✨ Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Akıllı Algoritma:** Çift harf içeren kelimeler için gerçek Wordle mantığı (Yeşil > Sarı > Gri önceliği).
+* **Dinamik Animasyonlar:** `@formkit/auto-animate` ve Tailwind CSS ile akıcı geçişler.
+* **Responsive Tasarım:** Mobil ve masaüstü cihazlarla tam uyumlu arayüz.
+* **Toast Bildirimleri:** `sonner` ile kullanıcıya anlık oyun durumu bildirimleri.
+* **Kelime Havuzu:** `wordle.json` üzerinden yönetilen geniş Türkçe kelime listesi.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Kullanılan Teknolojiler
 
-## Expanding the ESLint configuration
+* **React** (Vite)
+* **Tailwind CSS** (Styling)
+* **Axios** (Veri Çekme)
+* **Sonner** (Bildirimler)
+* **Auto-Animate** (Animasyonlar)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Kurulum
+
+Projeyi yerel bilgisayarınızda çalıştırmak için:
+
+1. Depoyu klonlayın:
+   ```bash
+   git clone [https://github.com/kullaniciadin/wordle-clone.git](https://github.com/kullaniciadin/wordle-clone.git)
